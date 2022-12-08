@@ -1,8 +1,22 @@
+body {
+    min-height: 300vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    background: #ccc;
+    display: flex;
+    flex-grow: 1;
+}
+
 .topnav {
     display: flex;
+    justify-content: flex-end;
     background-color: #a3c1ad;
     overflow: hidden;
-    justify-content: flex-end;
   }
 
 .topnav a {
