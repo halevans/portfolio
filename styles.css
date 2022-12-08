@@ -14,8 +14,9 @@ main {
 }
 
 img {
-    border-radius: 5px;
-    margin: 10px;
+    border-radius: 3px;
+    margin: 20px;
+    border: 20px solid rgb(20, 20, 20);
 }
 
 section, aside {
@@ -77,10 +78,10 @@ section {
 .icon-bar a {
   display: block; /* Make the links appear below each other instead of side-by-side */
   text-align: center; /* Center-align text */
-  padding: 16px; /* Add some padding */
+  padding: 8px; /* Add some padding */
   transition: all 0.3s ease; /* Add transition for hover effects */
   color: white; /* White text color */
-  font-size: 36px; /* Increased font-size */
+  font-size: 18px; /* Increased font-size */
 }
 
 .icon-bar a:hover {
