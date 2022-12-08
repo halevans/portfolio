@@ -26,7 +26,7 @@ section, aside {
     text-align: left;
     padding: 6px;
     border-radius: 12px;
-    flex-basis: 100px;
+    flex-basis: 50px;
 }
 
 section {
@@ -72,7 +72,7 @@ section {
 }
 
 .icon-bar {
-    width: 90px; /* Set a specific width */
+    width: 40px; /* Set a specific width */
   }
 
 .icon-bar a {
