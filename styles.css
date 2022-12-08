@@ -15,6 +15,7 @@ main {
 
 img {
     border-radius: 5px;
+    margin: 10px;
 }
 
 section, aside {
