@@ -29,6 +29,10 @@ section {
     grid-template-columns: 0.6fr 0.4fr;
   }
 
+.side-email {
+    writing-mode: vertical-lr;
+}
+
 .topnav {
     display: flex;
     justify-content: flex-end;
