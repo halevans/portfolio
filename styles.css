@@ -64,5 +64,5 @@ section {
 }
 
 .icon-bar a:hover {
-    background-color: #000; /* Add a hover color */
+    opacity: 0.7;
   }
