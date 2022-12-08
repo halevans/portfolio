@@ -4,16 +4,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: rgb(25, 25, 25);
 }
 
 main {
-    background: #ccc;
+    /* background: #ccc; */
     display: flex;
     flex-grow: 1;
 }
 
 section, aside {
-    background: #990012;
+    /* background: grey; */
     color: #fff;
     margin: 5px;
     text-align: left;
@@ -31,7 +32,6 @@ section {
 .topnav {
     display: flex;
     justify-content: flex-end;
-    background-color: #a3c1ad;
     overflow: hidden;
   }
 
@@ -42,6 +42,7 @@ section {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: all 0.3s ease;
 }
 
 .topnav a:hover {
@@ -51,7 +52,6 @@ section {
 
 .icon-bar {
     width: 90px; /* Set a specific width */
-    background-color: #555; /* Dark-grey background */
   }
 
 .icon-bar a {
